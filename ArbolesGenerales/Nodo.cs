@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ArbolesGenerales
 {
-    internal class Nodo
+    public class Nodo
     {
         public string Dato { get; set; }
         public Nodo Hijo { get; set; }
